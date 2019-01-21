@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: azure;
+    background: #005aaa;
+}
+.work-display{
+    height: 100vh;
+    background: #005aaa;;
+    margin: 0 !important;
+}
+.work-description{
+    /*background: red;*/
+    text-align: justify;
+}
+
+.portfolio-optn{
+    display: none;
+}
+
+.portfolio-optn ul li{
+    padding: 10px 20px;
+}
+
+.selected-txt{
+    font-weight: bold;
+}
+
+#pTitle{
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.demo-container-1{
+    width: 50%;
+    height: 80%;
+    
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    background-image: url('../img/1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.8s;
+}
+.demo-container-2{
+    width: 50%;
+    height: 80%;
+    
+    margin-left: 40%;
+    display: block;
+    background-image: url('../img/1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.8s;
+}
+.demo-container-3{
+    width: 100%;
+    height: 70%;
+    /*background-color: lightblue;*/
+    display: block;
+    margin-top: 15%;
+}
+.demo-container-4{
+    width: 50%;
+    height: 80%;  
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    background-image: url('../img/work/Alursita1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.8s;
+}
+.demo-container-5{ 
+    width: 50%;
+    height: 80%;
+    margin-left: 40%;
+    display: block;
+    background-image: url('../img/work/Alursita2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.8s;
+}
+.demo-container-6{
+    width: 50%;
+    height: 80%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    background-image: url('../img/work/Notaria1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.8s;
+}
+.demo-container-7{   
+    width: 50%;
+    height: 80%;
+    margin-left: 40%;
+    display: block;
+    background-image: url('../img/work/Notaria2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.8s;
+}
+.demo-container-8{
+    
+    width: 50%;
+    height: 80%;
+    margin-left: 40%;
+    display: block;
+    background-image: url('../img/1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.8s;
+}
+.demo-container-9{
+    width: 95%;
+    height: 80%;   
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    background-image: url('../img/work/LuisDaPhoto.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.8s;
+}
+.demo-container-10{
+    width: 50%;
+    height: 80%; 
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    background-image: url('../img/work/IncreibleTV.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.8s;
+}
+.demo-container-11 {
+    width: 95%;
+    height: 80%;
+    /* margin-left: 40%; */
+    margin-top: 88px;
+    display: block;
+    background-image: url(../img/work/IncreibleTV.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.8s;
+}
+
+
+.moveU{
+    transform: translateY(-20%);
+}
+.moveD{
+    transform: translateY(20%);
+}
+
+
+.selectors-container{
+    position: absolute;
+    width: 20px;
+    height: 50%;
+    margin-left: 50px;
+    margin-top: 80px;
+    /*text-align: center;*/
+}
+
+.selectors{
+    width: 80.33px;
+    /* height: 8.33px; */
+    /* background: white; */
+    -moz-border-radius: 3.12px;
+    -webkit-border-radius: 3.12px;
+    border-radius: 4.16px;
+    margin-bottom: 45px;
+    display: block;
+    cursor: pointer;
+}
+
+.selectors-container span + span{
+    margin-top: 22%;
+}
+
+.txt-box{
+    width: 45%;
+    bottom: 0;
+    position: absolute;
+    /* margin-top: 300px; */
+    /* background: grey; */
+}
+
+.txt-container{
+    padding: 5em 0;
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .images-display {
+        height: 695px !important;
+        width: 80% !important;
+        /* top: 10%; */
+        right: 0 !important;
+        position: absolute !important;
+        /* margin-top: 100px; */
+        /* background: lightblue; */
+    }
+
+    .work-display{
+        height: 1024px;
+    }
+
+    .txt-container{
+        padding: 3em 0;
+    }
+
+    .txt-box {
+        width: 92%;
+        /* top: 56%; */
+        font-size: 2em;
+        /* bottom: 15%; */
+        /* height: 345px; */
+        position: absolute;
+        /* margin-top: 300px; */
+        /* background: grey; */
+    }
+
+    .work-display{
+        height: 1366px !important;
+    }
+  }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .images-display {
+        height: 500px;
+        width: 88%;
+        top: 10%;
+        position: absolute;
+        /* margin-top: 100px; */
+        /* background: lightblue; */
+    }
+
+    .txt-container{
+        padding: 3em 0;
+    }
+
+    span{
+        font-size: 1.5em;
+    }
+
+    .work-display{
+        height: 1024px;
+    }
+
+    .txt-box{
+        font-size: 1.5em;
+    }
+  }
+
+
+@media screen and (max-width: 768px){
+    .demo-container-1, .demo-container-2, .demo-container-3, .demo-container-4, .demo-container-5, .demo-container-6, .demo-container-7, .demo-container-8, .demo-container-9, .demo-container-10, .demo-container-11{
+        height: 400px;
+    }
+    .selectors-container {
+        display: none;
+    }
+
+    .portfolio-optn{
+        display: block;
+    }
+
+    .images-display{
+        height: 500px;
+        /*background: lightblue;*/
+    }
+
+    .txt-container{
+        padding: 3em 0;
+    }
+
+    .txt-box {
+        width: 90%;
+        height: 220px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape){
+    .selectors-container{
+      display: none;
+    }
+
+    .portfolio-optn{
+      display: block;
+    }
+
+    .txt-box {
+      height: 280px;
+    }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape){
+    .work-display{
+        height: auto;
+    }
+    .txt-box{
+        display: none;
+    }
+}

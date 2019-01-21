@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="505px" height="175px" viewBox="0 0 505 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>App Category Pic 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M271.5,19.5 L271.5,145.5" id="path-1"></path>
+    </defs>
+    <g id="App-Category-Pic-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="BTST" font-family="HelveticaNeue, Helvetica Neue" font-size="91" font-weight="normal" fill="#FFFFFF">
+            <tspan x="25" y="113">BTST</tspan>
+        </text>
+        <text id="Make-it-happen" font-family="HelveticaNeue, Helvetica Neue" font-size="48" font-weight="normal" fill="#FFFFFF">
+            <tspan x="307" y="70">Make it</tspan>
+            <tspan x="307" y="126">happen</tspan>
+        </text>
+        <g id="Line-Copy-2" stroke-linecap="square" stroke="#FFFFFF">
+            <use stroke-width="4" xlink:href="#path-1"></use>
+            <use stroke-width="1" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
