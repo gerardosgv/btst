@@ -31,7 +31,7 @@ $('.demo-container-5').removeClass('moveU');
 
   $('#demo-1').click(function() {
     projectTitle.innerHTML = "Alursita";
-    projectDesc.innerHTML = "Alursita";
+    projectDesc.innerHTML = "Revista digital y blog de gastronomia y viajes.";
     $('.demo-container-1').hide();
     $('.demo-container-2').hide();
     $('.demo-container-4').fadeIn();
@@ -54,7 +54,7 @@ $('#demo-1').click(function() {
 
 $('#demo-5').click(function() {
     projectTitle.innerHTML = "Alursita";
-    projectDesc.innerHTML = "Revista digital y blog de gastronomia y viajes";
+    projectDesc.innerHTML = "Revista digital y blog de gastronomia y viajes.";
     $('.demo-container-1').hide();
     $('.demo-container-2').hide();
     $('.demo-container-4').fadeIn();
@@ -132,7 +132,7 @@ PORTFOLIO ITEM 3
 
   $('#demo-3').click(function() {
     projectTitle.innerHTML = "LuisDa Photography";
-    projectDesc.innerHTML = "LuisDa Photography";
+    projectDesc.innerHTML = "Portfolio digital y trabajo fotografico.";
     $('.demo-container-1').hide();
     $('.demo-container-2').hide();
     $('.demo-container-3').hide();
@@ -182,7 +182,7 @@ PORTFOLIO ITEM 4
 
   $('#demo-4').click(function() {
     projectTitle.innerHTML = "IncreibleTV";
-    projectDesc.innerHTML = "IncreibleTV";
+    projectDesc.innerHTML = "Sitio dedicado a la creación de contenido por IncreibleTv.";
     $('.demo-container-1').hide();
     $('.demo-container-2').hide();
     $('.demo-container-3').hide();
@@ -204,7 +204,7 @@ $('#demo-4').click(function() {
 
 $('#demo-8').click(function() {
     projectTitle.innerHTML = "IncreibleTV";
-    projectDesc.innerHTML = "Sitio dedicado a la creación de contenido por IncreibleTv";
+    projectDesc.innerHTML = "Sitio dedicado a la creación de contenido por IncreibleTv.";
     $('.demo-container-1').hide();
     $('.demo-container-2').hide();
     $('.demo-container-3').hide();
