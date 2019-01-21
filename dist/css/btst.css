@@ -45,10 +45,6 @@ h1 {
   justify-content: center !important;
 }
 
-.wireframe-img {
-  height: 570px !important;
-}
-
 .about-img-container {
   text-align: center;
 }
@@ -486,6 +482,9 @@ Media Querys
   img {
     height: 450px !important;
     max-width: 100%;
+  }
+  .wireframe-img {
+    height: 570px !important;
   }
 }
 
