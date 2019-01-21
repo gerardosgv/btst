@@ -45,11 +45,6 @@ h1 {
   justify-content: center !important;
 }
 
-img {
-  height: 450px !important;
-  max-width: 100%;
-}
-
 .wireframe-img {
   height: 570px !important;
 }
@@ -487,6 +482,10 @@ Media Querys
 @media screen and (min-width: 736px){
   .m{
     display: none;
+  }
+  img {
+    height: 450px !important;
+    max-width: 100%;
   }
 }
 
