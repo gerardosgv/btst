@@ -4,7 +4,7 @@
   "description": "btst website",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d site"
   },
   "author": "btst",
   "license": "ISC",
