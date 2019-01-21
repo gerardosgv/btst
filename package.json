@@ -1,0 +1,15 @@
+{
+  "name": "btst",
+  "version": "1.0.0",
+  "description": "btst website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "btst",
+  "license": "ISC",
+  "homepage": "https://gerardosgv.github.io/btst",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
